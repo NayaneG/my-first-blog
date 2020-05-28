@@ -1,0 +1,76 @@
+{
+	"name": "Curso",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "owningbusinessunit",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_cursoid",
+				"type": "varchar"
+			},
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "createdby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_name",
+				"type": "varchar"
+			},
+			{
+				"name": "owninguserid",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_codigoocde",
+				"type": "varchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ownerid",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETCurso"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

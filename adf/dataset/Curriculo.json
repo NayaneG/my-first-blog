@@ -1,0 +1,115 @@
+{
+	"name": "Curriculo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_quantidadeparcelas",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_curso",
+				"type": "varchar"
+			},
+			{
+				"name": "ownerid",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_cargahorariatotal",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_valormedioparcela",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ret_codigo",
+				"type": "varchar"
+			},
+			{
+				"name": "transactioncurrencyid",
+				"type": "varchar"
+			},
+			{
+				"name": "exchangerate",
+				"type": "bit"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_valormedioparcela_base",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "modifiedby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_turno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_curriculoid",
+				"type": "varchar"
+			},
+			{
+				"name": "createdby",
+				"type": "varchar"
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "varchar"
+			},
+			{
+				"name": "owninguser",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETCurriculo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

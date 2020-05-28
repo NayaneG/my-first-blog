@@ -1,0 +1,156 @@
+{
+	"name": "UNILEAOCRMMatriculaDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UNILEAO",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "UNILEAO"
+		},
+		"annotations": [],
+		"type": "DynamicsEntity",
+		"structure": [
+			{
+				"name": "statecode",
+				"type": "Int32"
+			},
+			{
+				"name": "statuscode",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_dataconclusao",
+				"type": "Datetime"
+			},
+			{
+				"name": "ret_cargahorariaconcluida",
+				"type": "Int32"
+			},
+			{
+				"name": "createdon",
+				"type": "Datetime"
+			},
+			{
+				"name": "ret_aluno",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_curso",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_periodoletivoatual",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_formaingresso",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_dataingresso",
+				"type": "Datetime"
+			},
+			{
+				"name": "ret_semestreprevistoconclusao",
+				"type": "String"
+			},
+			{
+				"name": "ownerid",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_notanatureza",
+				"type": "String"
+			},
+			{
+				"name": "ret_notaaprovacao",
+				"type": "String"
+			},
+			{
+				"name": "modifiedon",
+				"type": "Datetime"
+			},
+			{
+				"name": "ret_notalinguagens",
+				"type": "String"
+			},
+			{
+				"name": "ret_chaveintegracaoperiodoletivoatual",
+				"type": "String"
+			},
+			{
+				"name": "ret_registroacademico",
+				"type": "String"
+			},
+			{
+				"name": "ret_notamatematica",
+				"type": "String"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "String"
+			},
+			{
+				"name": "ret_unidade",
+				"type": "String"
+			},
+			{
+				"name": "modifiedby",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_periodoingresso",
+				"type": "String"
+			},
+			{
+				"name": "ret_turno",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_notaredacao",
+				"type": "String"
+			},
+			{
+				"name": "ret_localoferta",
+				"type": "String"
+			},
+			{
+				"name": "ret_matriculaid",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_notahumanas",
+				"type": "String"
+			},
+			{
+				"name": "timezoneruleversionnumber",
+				"type": "Int32"
+			},
+			{
+				"name": "createdby",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_modalidadeensino",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_grauacademico",
+				"type": "Int32"
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "Guid"
+			},
+			{
+				"name": "owninguser",
+				"type": "Guid"
+			}
+		],
+		"typeProperties": {
+			"entityName": "ret_matricula"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

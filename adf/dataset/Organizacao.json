@@ -1,0 +1,38 @@
+{
+	"name": "Organizacao",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "organizationid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "name",
+				"type": "varchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETOrganizacao"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

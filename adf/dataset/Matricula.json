@@ -1,0 +1,170 @@
+{
+	"name": "Matricula",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_dataconclusao",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_cargahorariaconcluida",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_aluno",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_curso",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_periodoletivoatual",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_formaingresso",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_dataingresso",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_semestreprevistoconclusao",
+				"type": "varchar"
+			},
+			{
+				"name": "ownerid",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_notanatureza",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_notaaprovacao",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_notalinguagens",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_chaveintegracaoperiodoletivoatual",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_registroacademico",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_notamatematica",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_unidade",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_periodoingresso",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_turno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_notaredacao",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_localoferta",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_matriculaid",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_notahumanas",
+				"type": "varchar"
+			},
+			{
+				"name": "timezoneruleversionnumber",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "createdby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_modalidadeensino",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_grauacademico",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "varchar"
+			},
+			{
+				"name": "owninguser",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETMatricula"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

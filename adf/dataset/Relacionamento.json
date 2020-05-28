@@ -1,0 +1,141 @@
+{
+	"name": "Relacionamento",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "modifiedonbehalfby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_dataconclusao",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_periodoletivo",
+				"type": "varchar"
+			},
+			{
+				"name": "owningbusinessunit",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_proximocontato",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_motivo_contatoid",
+				"type": "varchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_contato",
+				"type": "varchar"
+			},
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_relacionamentoid",
+				"type": "varchar"
+			},
+			{
+				"name": "ownerid",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ret_situacao",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_registroacademico",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_agendarnovaligacao",
+				"type": "bit"
+			},
+			{
+				"name": "timezoneruleversionnumber",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_origem",
+				"type": "varchar"
+			},
+			{
+				"name": "modifiedby",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_codigo",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_tema",
+				"type": "varchar"
+			},
+			{
+				"name": "createdby",
+				"type": "varchar"
+			},
+			{
+				"name": "processid",
+				"type": "varchar"
+			},
+			{
+				"name": "owninguser",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_titulo",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_alternativapermanencia",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_motivoevasao",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_detalhes",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETRelacionamento"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

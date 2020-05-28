@@ -1,0 +1,36 @@
+{
+	"name": "UNILEAOCRMOrganizacaoDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UNILEAO",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "UNILEAO"
+		},
+		"annotations": [],
+		"type": "DynamicsEntity",
+		"structure": [
+			{
+				"name": "organizationid",
+				"type": "Guid"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "createdon",
+				"type": "Datetime"
+			},
+			{
+				"name": "modifiedon",
+				"type": "Datetime"
+			}
+		],
+		"typeProperties": {
+			"entityName": "organization"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

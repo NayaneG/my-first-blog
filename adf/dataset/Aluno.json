@@ -1,0 +1,353 @@
+{
+	"name": "Aluno",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BancoPermanencia",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "owningbusinessunit",
+				"type": "varchar"
+			},
+			{
+				"name": "customertypecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "mobilephone",
+				"type": "varchar"
+			},
+			{
+				"name": "merged",
+				"type": "bit"
+			},
+			{
+				"name": "territorycode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "emailaddress1",
+				"type": "varchar"
+			},
+			{
+				"name": "haschildrencode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "preferredappointmenttimecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "msdyn_orgchangestatus",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "isbackofficecustomer",
+				"type": "bit"
+			},
+			{
+				"name": "owninguser",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_documento_identificacao",
+				"type": "varchar"
+			},
+			{
+				"name": "lastname",
+				"type": "varchar"
+			},
+			{
+				"name": "donotpostalmail",
+				"type": "bit"
+			},
+			{
+				"name": "marketingonly",
+				"type": "bit"
+			},
+			{
+				"name": "donotphone",
+				"type": "bit"
+			},
+			{
+				"name": "preferredcontactmethodcode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "educationcode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ownerid",
+				"type": "varchar"
+			},
+			{
+				"name": "customersizecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "firstname",
+				"type": "varchar"
+			},
+			{
+				"name": "yomifullname",
+				"type": "varchar"
+			},
+			{
+				"name": "donotemail",
+				"type": "bit"
+			},
+			{
+				"name": "address2_shippingmethodcode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "fullname",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_addressid",
+				"type": "varchar"
+			},
+			{
+				"name": "msdyn_gdproptout",
+				"type": "bit"
+			},
+			{
+				"name": "address2_freighttermscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "donotsendmm",
+				"type": "bit"
+			},
+			{
+				"name": "donotfax",
+				"type": "bit"
+			},
+			{
+				"name": "leadsourcecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "creditonhold",
+				"type": "bit"
+			},
+			{
+				"name": "address3_addressid",
+				"type": "varchar"
+			},
+			{
+				"name": "donotbulkemail",
+				"type": "bit"
+			},
+			{
+				"name": "modifiedby",
+				"type": "varchar"
+			},
+			{
+				"name": "followemail",
+				"type": "bit"
+			},
+			{
+				"name": "createdby",
+				"type": "varchar"
+			},
+			{
+				"name": "donotbulkpostalmail",
+				"type": "bit"
+			},
+			{
+				"name": "address2_addresstypecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_matriculaatual",
+				"type": "varchar"
+			},
+			{
+				"name": "contactid",
+				"type": "varchar"
+			},
+			{
+				"name": "participatesinworkflow",
+				"type": "bit"
+			},
+			{
+				"name": "statecode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "address2_addressid",
+				"type": "varchar"
+			},
+			{
+				"name": "shippingmethodcode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_sexo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "birthdate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "gendercode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "address2_city",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_atividadeprofissional",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "address2_line3",
+				"type": "varchar"
+			},
+			{
+				"name": "address2_line1",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_ufnaturalidade",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_composite",
+				"type": "varchar"
+			},
+			{
+				"name": "timezoneruleversionnumber",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_nacionalidade",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_stateorprovince",
+				"type": "varchar"
+			},
+			{
+				"name": "originatingleadid",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_line1",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_line3",
+				"type": "varchar"
+			},
+			{
+				"name": "telephone1",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "varchar"
+			},
+			{
+				"name": "address2_postalcode",
+				"type": "varchar"
+			},
+			{
+				"name": "familystatuscode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "address2_stateorprovince",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_name",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_city",
+				"type": "varchar"
+			},
+			{
+				"name": "address2_composite",
+				"type": "varchar"
+			},
+			{
+				"name": "address2_name",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_postalcode",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_pronometratamento",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ret_nomemae",
+				"type": "varchar"
+			},
+			{
+				"name": "ret_nomepai",
+				"type": "varchar"
+			},
+			{
+				"name": "address1_line2",
+				"type": "varchar"
+			},
+			{
+				"name": "createdon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "modifiedon",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "RETAluno"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

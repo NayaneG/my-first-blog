@@ -1,0 +1,16 @@
+{
+	"name": "AzureDatalakeAnalyticsLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeAnalytics",
+		"typeProperties": {
+			"accountName": "datalakecrm",
+			"servicePrincipalId": "a163d748-51a1-45db-b982-268995cd4e21",
+			"tenant": "f891748b-2b5f-4164-9fc0-728f7ce6b021",
+			"subscriptionId": "46dc36bf-44d8-4058-9d1c-824430d8cf67",
+			"resourceGroupName": "datalake",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNSTUVEVUNBQ0lPTkFMREFUQUZBQ1RPUllQRVJNQU5FTkNJQV83M2M2MjhhNS1lODAxLTQzZjEtODY4OS00MWFkYzc1MDU3MzUiDQp9"
+		},
+		"annotations": []
+	}
+}

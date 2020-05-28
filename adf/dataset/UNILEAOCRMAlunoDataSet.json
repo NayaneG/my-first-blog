@@ -1,0 +1,328 @@
+{
+	"name": "UNILEAOCRMAlunoDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UNILEAO",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "UNILEAO"
+		},
+		"annotations": [],
+		"type": "DynamicsEntity",
+		"structure": [
+			{
+				"name": "owningbusinessunit",
+				"type": "Guid"
+			},
+			{
+				"name": "customertypecode",
+				"type": "Int32"
+			},
+			{
+				"name": "mobilephone",
+				"type": "String"
+			},
+			{
+				"name": "merged",
+				"type": "Boolean"
+			},
+			{
+				"name": "territorycode",
+				"type": "Int32"
+			},
+			{
+				"name": "emailaddress1",
+				"type": "String"
+			},
+			{
+				"name": "haschildrencode",
+				"type": "Int32"
+			},
+			{
+				"name": "preferredappointmenttimecode",
+				"type": "Int32"
+			},
+			{
+				"name": "msdyn_orgchangestatus",
+				"type": "Int32"
+			},
+			{
+				"name": "isbackofficecustomer",
+				"type": "Boolean"
+			},
+			{
+				"name": "owninguser",
+				"type": "Guid"
+			},
+			{
+				"name": "ret_documento_identificacao",
+				"type": "String"
+			},
+			{
+				"name": "lastname",
+				"type": "String"
+			},
+			{
+				"name": "donotpostalmail",
+				"type": "Boolean"
+			},
+			{
+				"name": "marketingonly",
+				"type": "Boolean"
+			},
+			{
+				"name": "donotphone",
+				"type": "Boolean"
+			},
+			{
+				"name": "preferredcontactmethodcode",
+				"type": "Int32"
+			},
+			{
+				"name": "educationcode",
+				"type": "Int32"
+			},
+			{
+				"name": "ownerid",
+				"type": "Guid"
+			},
+			{
+				"name": "customersizecode",
+				"type": "Int32"
+			},
+			{
+				"name": "firstname",
+				"type": "String"
+			},
+			{
+				"name": "yomifullname",
+				"type": "String"
+			},
+			{
+				"name": "donotemail",
+				"type": "Boolean"
+			},
+			{
+				"name": "address2_shippingmethodcode",
+				"type": "Int32"
+			},
+			{
+				"name": "fullname",
+				"type": "String"
+			},
+			{
+				"name": "address1_addressid",
+				"type": "Guid"
+			},
+			{
+				"name": "msdyn_gdproptout",
+				"type": "Boolean"
+			},
+			{
+				"name": "address2_freighttermscode",
+				"type": "Int32"
+			},
+			{
+				"name": "statuscode",
+				"type": "Int32"
+			},
+			{
+				"name": "donotsendmm",
+				"type": "Boolean"
+			},
+			{
+				"name": "donotfax",
+				"type": "Boolean"
+			},
+			{
+				"name": "leadsourcecode",
+				"type": "Int32"
+			},
+			{
+				"name": "creditonhold",
+				"type": "Boolean"
+			},
+			{
+				"name": "address3_addressid",
+				"type": "Guid"
+			},
+			{
+				"name": "donotbulkemail",
+				"type": "Boolean"
+			},
+			{
+				"name": "modifiedby",
+				"type": "Guid"
+			},
+			{
+				"name": "followemail",
+				"type": "Boolean"
+			},
+			{
+				"name": "createdby",
+				"type": "Guid"
+			},
+			{
+				"name": "donotbulkpostalmail",
+				"type": "Boolean"
+			},
+			{
+				"name": "address2_addresstypecode",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_matriculaatual",
+				"type": "String"
+			},
+			{
+				"name": "contactid",
+				"type": "Guid"
+			},
+			{
+				"name": "participatesinworkflow",
+				"type": "Boolean"
+			},
+			{
+				"name": "statecode",
+				"type": "Int32"
+			},
+			{
+				"name": "address2_addressid",
+				"type": "Guid"
+			},
+			{
+				"name": "shippingmethodcode",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_sexo",
+				"type": "Int32"
+			},
+			{
+				"name": "birthdate",
+				"type": "Datetime"
+			},
+			{
+				"name": "gendercode",
+				"type": "Int32"
+			},
+			{
+				"name": "address2_city",
+				"type": "String"
+			},
+			{
+				"name": "ret_atividadeprofissional",
+				"type": "Int32"
+			},
+			{
+				"name": "address2_line3",
+				"type": "String"
+			},
+			{
+				"name": "address2_line1",
+				"type": "String"
+			},
+			{
+				"name": "ret_ufnaturalidade",
+				"type": "String"
+			},
+			{
+				"name": "address1_composite",
+				"type": "String"
+			},
+			{
+				"name": "timezoneruleversionnumber",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_nacionalidade",
+				"type": "String"
+			},
+			{
+				"name": "address1_stateorprovince",
+				"type": "String"
+			},
+			{
+				"name": "originatingleadid",
+				"type": "Guid"
+			},
+			{
+				"name": "address1_line1",
+				"type": "String"
+			},
+			{
+				"name": "address1_line3",
+				"type": "String"
+			},
+			{
+				"name": "telephone1",
+				"type": "String"
+			},
+			{
+				"name": "ret_chaveintegracaosga",
+				"type": "String"
+			},
+			{
+				"name": "address2_postalcode",
+				"type": "String"
+			},
+			{
+				"name": "familystatuscode",
+				"type": "Int32"
+			},
+			{
+				"name": "address2_stateorprovince",
+				"type": "String"
+			},
+			{
+				"name": "address1_name",
+				"type": "String"
+			},
+			{
+				"name": "address1_city",
+				"type": "String"
+			},
+			{
+				"name": "address2_composite",
+				"type": "String"
+			},
+			{
+				"name": "address2_name",
+				"type": "String"
+			},
+			{
+				"name": "address1_postalcode",
+				"type": "String"
+			},
+			{
+				"name": "ret_pronometratamento",
+				"type": "Int32"
+			},
+			{
+				"name": "ret_nomemae",
+				"type": "String"
+			},
+			{
+				"name": "ret_nomepai",
+				"type": "String"
+			},
+			{
+				"name": "address1_line2",
+				"type": "String"
+			},
+			{
+				"name": "createdon",
+				"type": "Datetime"
+			},
+			{
+				"name": "modifiedon",
+				"type": "Datetime"
+			}
+		],
+		"typeProperties": {
+			"entityName": "contact"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

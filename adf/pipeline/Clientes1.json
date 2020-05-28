@@ -1,0 +1,22 @@
+{
+	"name": "Clientes1",
+	"properties": {
+		"activities": [
+			{
+				"name": "UNILEAO",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "UNILEAO",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
