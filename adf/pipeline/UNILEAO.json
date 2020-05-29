@@ -107,6 +107,47 @@
 					"referenceName": "BancoPermanencia",
 					"type": "LinkedServiceReference"
 				}
+			},
+			{
+				"name": "Copy UnidadeNegocio",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "Copy Organizacao",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DynamicsCrmSource"
+					},
+					"sink": {
+						"type": "AzureSqlSink"
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "CRMUnidadeNegocios",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "UnidadeNegocio",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"variables": {
