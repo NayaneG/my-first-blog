@@ -1,0 +1,15 @@
+{
+	"name": "CRMCurriculo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dynamics",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DynamicsCrmEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "ret_curriculo"
+		}
+	}
+}

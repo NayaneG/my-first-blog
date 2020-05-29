@@ -1,0 +1,15 @@
+{
+	"name": "CRMAluno",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dynamics",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DynamicsCrmEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "contact"
+		}
+	}
+}
