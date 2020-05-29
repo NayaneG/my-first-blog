@@ -394,6 +394,46 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Update",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[UpdateBusinessunitId_Permanencia]"
+				},
+				"linkedServiceName": {
+					"referenceName": "BancoPermanencia",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Merge",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[MergeFromStagingToTarget_Permanencia]"
+				},
+				"linkedServiceName": {
+					"referenceName": "BancoPermanencia",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"variables": {
