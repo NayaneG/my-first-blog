@@ -129,12 +129,68 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "DynamicsCrmSource"
+						"type": "DynamicsCrmSource",
+						"query": "<fetch>\n<entity name='businessunit'>\n<attribute name='businessunitid' />\n<attribute name='organizationid' />\n<attribute name='name' />\n<attribute name='createdon' />\n<attribute name='modifiedon' />\n</entity>\n</fetch>"
 					},
 					"sink": {
 						"type": "AzureSqlSink"
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "businessunitid",
+									"type": "Guid"
+								},
+								"sink": {
+									"name": "businessunitid",
+									"type": "Guid"
+								}
+							},
+							{
+								"source": {
+									"name": "organizationid",
+									"type": "Guid"
+								},
+								"sink": {
+									"name": "organizationid",
+									"type": "Guid"
+								}
+							},
+							{
+								"source": {
+									"name": "name",
+									"type": "String"
+								},
+								"sink": {
+									"name": "name",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "createdon",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "createdon",
+									"type": "DateTime"
+								}
+							},
+							{
+								"source": {
+									"name": "modifiedon",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "modifiedon",
+									"type": "DateTime"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
